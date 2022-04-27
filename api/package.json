@@ -1,0 +1,28 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "chat",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "server": "nodemon run "
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "Gilson401",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.0",
+    "socket.io": "^4.5.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "consola": "^2.15.3",
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
